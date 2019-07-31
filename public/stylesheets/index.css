@@ -1,0 +1,107 @@
+body {
+    
+    margin: 0;
+    background-attachment: fixed;
+    background-image: url('https://res.cloudinary.com/rapha3l/image/upload/e_grayscale/v1546821389/cocktail2_z4gfun.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+#big-div {
+    width:98%;
+    padding:2%;
+    margin:0;
+    color: #696969;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+form {
+   
+    height: auto;
+   
+}
+
+/* HEADER */
+
+
+h1 {
+  font-size: 38px;
+  color:white;
+}
+
+
+
+#description {
+    width: 60%;
+    color: white;
+
+}
+
+p {
+    font-size: 14px;
+}
+
+/* QUESTIONS */
+.card-1 {
+    margin-left: 25%;
+    width: 50%;
+    margin-bottom: 5%;
+    background-color:whitesmoke;
+    padding: 2.5%;
+    opacity: 0.93;
+    
+}
+
+button {
+    border-style:none;
+    width: 15%;
+    padding: 2%;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+    margin-right: 5%;
+}
+
+
+.question {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+h6 {
+    margin: 2%;
+    color:white;
+    font-size: 10px;
+}
+
+#alpha-link:link {
+    color: white;
+    cursor: pointer;
+}
+
+#alpha-link:hover {
+    color:lightgrey;
+}
+
+#alpha-link:visited{
+    color: whitesmoke;
+
+}
+
+
+
+
+
+
+
+
+/*SUBMIT BUTTON */
+#submit{
+    background-color: orange;
+    border-color: orange;
+    margin:auto;
+    display: block;
+}

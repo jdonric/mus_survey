@@ -1,0 +1,225 @@
+<html>
+    <head>
+        <title>Customer feedback - Mixin' Up Spirits</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+       
+    </head>
+
+    <body >
+            <div id="big-div">
+        <h1>Mixin' Up Spirits</h1>
+        <h3 style="color:orange;">Customer Feedback Survey <!-- <em >We want to hear from you!</em> --></h3>
+
+      <!-- <p id="description">At Mixin' Up Spirits, we care about what our clients have to say and we work diligently to deliver the best experience for them as possible.
+                We kindly ask that you complete the survey below so that we can learn more about what we're doing right and what we can do more of. </p>  -->  
+        
+<br/>
+<br/>
+        <!-- FORM  -->
+
+
+
+      
+
+
+  <form action="/share" id="share-form" method="post" role="form">
+    <div id="theCarousel" class="carousel slide"  data-ride="carousel" data-wrap="false">
+      <div class="carousel-inner">
+        <!--1-->
+        <div class="carousel-item active">
+            <div class="card card-1">
+                <div class="card-body">
+                  <div class="question">
+                    <h4>I am/was seeking mobile bartending and mixology services for more than one ocassion.</h4>
+                    <div class="form-check form-check-inline">
+                            <input class="form-check-input radio-style radio-style radio-style" type="radio" name="frequency" id="frequency1" value="Strongly Disagree">
+                            <label class="form-check-label" for="frequency1"><span class="checkmark"></span>Strongly Disagree</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input radio-style radio-style radio-style" type="radio" name="frequency" id="frequency2" value="Disagree">
+                            <label class="form-check-label" for="frequency2"><span class="checkmark"></span>Disagree</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input radio-style radio-style radio-style" type="radio" name="frequency" id="frequency3" value="Somewhat Agree">
+                            <label class="form-check-label" for="frequency3"><span class="checkmark"></span>Somewhat Agree </label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                                <input class="form-check-input radio-style radio-style radio-style" type="radio" name="frequency" id="frequnecy4" value="Strongly Agree">
+                                <label class="form-check-label" for="frequency4"><span class="checkmark"></span>Strongly Agree</label>
+                              </div>
+                              
+                    </div>
+             
+                </div>
+              </div>
+
+        </div>
+        <!--2-->
+        <div class="carousel-item">
+            <div class="card card-1">
+                <div class="card-body">
+                  <div class="question">
+                    <h4>There is little to no competition to Mixin' Up Spirits when it comes to family-friendly/mocktail/non-alcoholic bartending.</h4>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input radio-style radio-style radio-style" type="radio" name="competition" id="competition1" value="Strongly Disagree">
+                      <label class="form-check-label" for="competition1"><span class="checkmark"></span>Strongly Disagree</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input radio-style radio-style radio-style" type="radio" name="competition" id="competition2" value="Disagree">
+                      <label class="form-check-label" for="competition2"><span class="checkmark"></span>Disagree</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input radio-style radio-style radio-style" type="radio" name="competition" id="competition3" value="Somewhat Agree">
+                      <label class="form-check-label" for="competition3"><span class="checkmark"></span>Somewhat Agree </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                          <input class="form-check-input radio-style radio-style radio-style" type="radio" name="competition" id="competition4" value="Strongly Agree">
+                          <label class="form-check-label" for="competition4"><span class="checkmark"></span>Strongly Agree</label>
+                        </div>
+                        
+                    </div>
+                </div>
+              </div>
+              
+
+        </div>
+        <!--3-->
+        <div class="carousel-item">
+            <div class="card card-1">
+                <div class="card-body">
+                  <div class="question">
+                    <h4>While attending an event/venue where Mixin' Up Spirits was booked, I remember the drinks tasting AMAZING.</h4>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input radio-style radio-style radio-style" type="radio" name="good_drinks" id="good-drinks1" value="Strongly Disagree">
+                      <label class="form-check-label" for="good-drinks1"><span class="checkmark"></span>Strongly Disagree</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input radio-style radio-style radio-style" type="radio" name="good_drinks" id="good-drinks2" value="Disagree">
+                      <label class="form-check-label" for="good-drinks2"><span class="checkmark"></span>Disagree</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input radio-style radio-style radio-style" type="radio" name="good_drinks" id="good-drinks3" value="Somewhat Agree">
+                      <label class="form-check-label" for="good-drinks3"><span class="checkmark"></span>Somewhat Agree </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                          <input class="form-check-input radio-style radio-style radio-style" type="radio" name="good_drinks" id="good-drinks4" value="Strongly Agree">
+                          <label class="form-check-label" for="good-drinks4"><span class="checkmark"></span>Strongly Agree</label>
+                    </div>
+                     
+                </div>
+      
+              </div>
+            </div>
+
+        </div>
+        <!--4-->
+        <div class="carousel-item">
+            <div class="card card-1">
+                <div class="card-body">
+                  <div class="question">
+                    <h4>Individual staff members at Mixin' Up Spirits provided excellent customer service (punctual, cordial, attentive to inquirers' and attendees' needs). </h4>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input radio-style radio-style radio-style" type="radio" name="good_staff" id="good-staff1" value="Strongly Disagree">
+                      <label class="form-check-label" for="good-drinks1"><span class="checkmark"></span>Strongly Disagree</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input radio-style radio-style radio-style" type="radio" name="good_staff" id="good-staff2" value="Disagree">
+                      <label class="form-check-label" for="good-drinks2"><span class="checkmark"></span>Disagree</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input radio-style radio-style radio-style" type="radio" name="good_staff" id="good-staff3" value="Somewhat Agree">
+                      <label class="form-check-label" for="good-drinks3"><span class="checkmark"></span>Somewhat Agree </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                          <input class="form-check-input radio-style radio-style radio-style" type="radio" name="good_staff" id="good-staff4" value="Strongly Agree">
+                          <label class="form-check-label" for="good-staff4"><span class="checkmark"></span>Strongly Agree</label>
+                        </div>
+                        
+                      </div>
+                </div>
+              </div>
+        
+
+        </div>
+        <!--5-->
+        <div class="carousel-item">
+            <div class="card card-1">
+                <div class="card-body">
+                  <div class="question">
+                    <h4>I will only recommend Mixin' Up Spirits to people for bartending and mixology services from now on.</h4>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input radio-style radio-style radio-style" type="radio" name="exclusive_recommendation" id="recommendation1" value="Strongly Disagree">
+                      <label class="form-check-label" for="recommendation1"><span class="checkmark"></span>Strongly Disagree</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input radio-style radio-style radio-style" type="radio" name="exclusive_recommendation" id="recommendation2" value="Disagree">
+                      <label class="form-check-label" for="recommendation2"><span class="checkmark"></span>Disagree</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input radio-style radio-style radio-style" type="radio" name="exclusive_recommendation" id="recommendation3" value="Somewhat Agree">
+                      <label class="form-check-label" for="recommendation3"><span class="checkmark"></span>Somewhat Agree </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                          <input class="form-check-input radio-style radio-style radio-style" type="radio" name="exclusive_recommendation" id="recommendation4" value="Strongly Agree">
+                          <label class="form-check-label" for="recommendation4"><span class="checkmark"></span>Strongly Agree</label>
+                        </div>
+                        <br/><br/>
+                      
+                    </div>
+                </div>
+              </div>
+                       
+
+          </div>
+        <!--6-->
+        <div class="carousel-item">
+            <div class="card card-1">
+                <div class="card-body">
+                  <div class="question">
+                    <h4>What is your email address? (optional)</h3>
+                        <div class="form-group">
+                                <label for="email">Email address:</label>
+                                <input type="email" class="form-control" id="email" name="mail">
+                              </div>
+    
+                              <input type="submit" class="btn btn-info" id="submit" value="Submit Feedback">
+                    </div>
+                </div>
+              </div>
+
+          </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#theCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#theCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div> 
+
+        
+        
+    </form>
+</div>
+
+<h6>Visit <a id="alpha-link" href="http://www.mixinupspirits.com/">mixinupspirits.com</a></h6>
+
+<script>
+  $(document).ready(function() {      
+   $('.carousel').carousel('pause');
+});
+</script>
+
+    
+</body>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <script src="main.js"></script>
+    </html>
