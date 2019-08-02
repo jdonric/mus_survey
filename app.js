@@ -21,19 +21,7 @@ app.use(express.static(__dirname + '/public'));
 //use this stuff too
 app.use('/share', '../routes/CustomerRoute');
 
-/* //db
-const MongoClient = require('mongodb').MongoClient;
-//const assert = require('assert'); 
- 
-// Connection URL mongodb://localhost:27017/mus 
-const url =  mongoose.connect('mongodb+srv://tester:testing123@cluster0-dk0py.mongodb.net/test?retryWrites=true&w=majority', {useNewUrlParser: true});
 
-// Use connect method to connect to the Server
-MongoClient.connect(url, {useNewUrlParser: true},  function(err, client) {
-  //assert.equal(null, err);
-  //client.close();
-  console.log('DB CONNECTED');
-}); */
 
 //from MDB docs -- database hosted on MDB Atlas 
 var MongoClient = require('mongodb').MongoClient;
